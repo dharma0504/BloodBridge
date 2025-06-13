@@ -1,0 +1,32 @@
+.container {
+    width: 100%;  /* Full width container */
+    height: 120px; /* Adjust height as needed */
+    position: relative;
+    overflow: hidden; /* Ensures image stays inside */
+    background-color: #FDF0EE;
+  }
+  
+  .moving-box {
+    width: 145px;  /* Image size */
+    height: 145px;
+    position: absolute;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for exact centering */
+    animation: moveLeftToRight 4s linear infinite; /* Adjust duration */
+  }
+  
+  .moving-box img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Animation */
+  @keyframes moveLeftToRight {
+    from {
+      left: 0%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
