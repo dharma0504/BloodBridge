@@ -126,4 +126,12 @@ To run **BloodBridge** on your system, follow the steps below for setting up the
    ```bash
    cd frontend/
    npm install
+   ```
+
+## 👨‍💻 Created By
+
+**Dharmatej Mallampati**
+
+Connect with me:  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/dharmatej-mallampati-47944724a/)
 
